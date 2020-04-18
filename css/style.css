@@ -1,0 +1,972 @@
+/******************************************/
+/**********Global css code start***********/
+/******************************************/
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: sans-serif;
+	font-size: 14px;
+	line-height: 24px
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: sans-serif;
+}
+a ,a:hover{
+	text-decoration: none;
+}
+/******************************************/
+/**************Global css code end*********/
+/******************************************/
+
+
+/******************************************/
+/*header and banner-section css code start*/
+/******************************************/
+.header-section{
+	width: 100%;
+	background: url(../img/banner1.png) center top no-repeat;
+	background-size: cover;
+	padding-bottom: 533px;
+}
+.bg-light {
+    background-color: transparent!important;
+}
+.navbar-light .navbar-nav .active>.nav-link{
+    color: #dc2a4c;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+.navbar-light .navbar-nav .active>.nav-link:hover{
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 16px 22px;
+    font-family: 'Open Sans', sans-serif;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #dc2a4c;
+}
+.banner .banner-inner{
+	width: 100%;
+}
+.banner .banner-inner h1{
+	width: 100%;
+	font-size: 64px;
+	color: #dc2a4c;
+	margin-top: 135px;
+    font-family: 'Lobster', cursive;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.banner .banner-inner p{
+	font-size: 20px;
+    line-height: 33px;
+    color: #dc254f;
+    font-family: 'Open Sans', sans-serif;
+}
+.banner .banner-inner .btn {
+    font-size: 17px;
+    font-weight: 600;
+    padding: 4px 25px 4px;
+    border-radius: 13px;
+    margin: 15px 0px 0px;
+    background: #fff;
+    color: #dc2a4c;
+    letter-spacing: 1px;
+}
+.banner .banner-inner .btn:hover{
+    color: #fff;
+    background: #dc2a4c;
+    transition: 1s;
+}
+/******************************************/
+/**header and banner-section css code end**/
+/******************************************/
+
+/******************************************/
+/*************About css code start*********/
+/******************************************/
+.About-section{
+	width: 100%;
+}
+.About-inner h1{
+	font-size: 44px;
+    text-transform: uppercase;
+    font-weight: 600;	
+    color: #dc2a4c;
+    margin-bottom: 35px;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 3px;
+}
+.About-in p{
+	font-size: 16px;
+    font-weight: 600;
+    color: #dc2a4c;
+    font-family: 'Open Sans', sans-serif;
+}
+.btn-div .btn{
+	font-size: 16px;
+    font-weight: 600;
+    padding: 10px 51px 9px;
+    border-radius: 13px;
+    margin: 15px 0px 0px;
+    background: #dc2a4c;
+    color: #fff;
+    letter-spacing: 1px;
+}
+.btn-div .btn:hover{
+    color: #dc2a4c;
+    border: 1px solid #dc2a4c;
+    background: transparent;
+    transition: 1s;
+}
+/******************************************/
+/*************About css code end***********/
+/******************************************/
+
+/******************************************/
+/*******Display css code start*************/
+/******************************************/
+.display-section{
+	width: 100%;
+	background: url(../img/b1.png) center top no-repeat;
+	background-size: cover;
+	padding: 600px 0px 374px;
+}
+.display img{
+    width: 100%;
+}
+.display-inner{
+    width: 100%;
+}
+.display-in{
+    width: 100%;
+    padding: 16px
+}
+.display-in h2{
+    width: 100%;
+    font-size: 30px;
+    font-weight: 600;
+    color: #dc2a4c;
+    text-transform: uppercase;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 3px;
+}
+.display-in p{
+    width: 100%;
+	color: #dc2a4c;
+    font-size: 13px;
+	margin: 20px 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+.btn-display .btn{
+    font-size: 13px;
+    font-weight: 600;
+    padding: 7px 28px 6px;
+    border-radius: 13px;
+    margin: 15px 0px 0px;
+    background: #fff;
+    color: #dc2a4c;
+    letter-spacing: 1px;
+}
+.btn-display .btn:hover{
+    color: #dc2a4c;
+    border: 1px solid #dc2a4c;
+    background: transparent;
+    transition: 1s;
+}
+.display-mid img{
+    width: 100%;
+}
+.display-inner-mid{
+    margin-top: 100px;
+}
+.display-in-mid{
+    width: 100%;
+    padding: 16px
+}
+.display-in-mid h2{
+    width: 100%;
+    font-size: 30px;
+    font-weight: 600;
+    color: #dc2a4c;
+    text-transform: uppercase;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 3px;
+}
+.display-in-mid p{
+    width: 100%;
+    color: #dc2a4c;
+    font-size: 13px;
+    margin: 20px 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+.btn-display-mid .btn{
+    font-size: 13px;
+    font-weight: 600;
+    padding: 7px 28px 6px;
+    border-radius: 13px;
+    margin: 15px 0px 0px;
+    background: #fff;
+    color: #dc2a4c;
+    letter-spacing: 1px;
+}
+.btn-display-mid .btn:hover{
+    color: #dc2a4c;
+    border: 1px solid #dc2a4c;
+    background: transparent;
+    transition: 1s;
+}
+/******************************************/
+/************Display css code end**********/
+/******************************************/
+
+/******************************************/
+/*********polygon css code start***********/
+/******************************************/
+.polygon-section{
+	width: 100%;
+    background: url(../img/f2.png) left bottom no-repeat;
+}
+.polygon-inner h1{
+	font-size: 44px;
+    text-transform: uppercase;
+    font-weight: 600;	
+    color: #dc2a4c;
+    padding-top: 130px;
+    margin-bottom: 46px;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 3px;
+}
+.polygon-in p{
+	font-size: 16px;
+    font-weight: 600;
+    color: #dc2a4c;
+    margin-left: 56px;
+    font-family: 'Open Sans', sans-serif;
+}
+.polygon img{
+    width: 100%;
+}
+.btn{
+	background: #dc2a4c;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 6px 32px;
+    border-radius: 13px;
+    color: #fff;
+    letter-spacing: 1px;
+}
+.btn-div{
+	padding-top: 18px;
+}
+/******************************************/
+/***********polygon css code end***********/
+/******************************************/
+
+/******************************************/
+/*************Enjoy css code start*********/
+/******************************************/
+.enjoy-section{
+	width: 100%;
+	background: url(../img/11.png) center top no-repeat;
+	background-size: cover;
+}
+.enjoy{
+	width: 100%;
+	padding: 370px 0px 70px;
+}
+.enjoy h1{
+	width: 100%;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #dc2a4c ;
+    padding-bottom: 10px;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 3px;
+}
+.enjoy p{
+    font-size: 16px;
+    color: #dc2a4c;
+    font-family: 'Open Sans', sans-serif;
+}
+/******************************************/
+/************Enjoy css code end************/
+/******************************************/
+
+/******************************************/
+/******baner-section css code start********/
+/******************************************/
+.banner-section{
+	width: 100%;
+	background: url(../img/g12.png) center top no-repeat;
+	background-size: cover;
+	padding: 0px 0px 1029px;
+	margin-top: 46px;
+}
+/******************************************/
+/********baner-section css code end********/
+/******************************************/
+
+/******************************************/
+/**Display-footer-section css code start***/
+/******************************************/
+.display-footer-section{
+	width: 100%;
+	background: url(../img/G13.png) center top no-repeat;
+	background-size: cover;
+
+}
+.display-footer-inner{
+    width: 100%;
+    margin-top: 566px;
+}
+.display-footer img{
+    width: 100%;
+}
+.display-footer{
+    width: 100%;
+}
+.display-footer-inner{
+    width: 100%;
+}
+.display-footer-in h2{
+    width: 100%;
+    font-size: 30px;
+    font-weight: 600;
+    color: #dc2a4c;
+    text-transform: uppercase;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 3px;
+}
+.display-footer-in p{
+    width: 100%;
+     font-size: 13px;
+    color: #dc2a4c;
+    margin: 20px 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+.display-footer-in{
+    width: 100%;
+    padding: 16px
+}
+.display-footer-inner-in{
+    width: 100%;
+    margin-top: 480px;
+}
+.display-footer-inn img{
+    width: 100%;
+}
+.display-footer-inn{
+    width: 100%;
+}
+.display-footer-div h2{
+    width: 100%;
+    font-size: 30px;
+    font-weight: 600;
+    color: #dc2a4c;
+    text-transform: uppercase;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 3px;
+}
+.display-footer-div p{
+    width: 100%;
+     font-size: 13px;
+    color: #dc2a4c;
+    margin: 20px 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+.display-footer-div{
+    width: 100%;
+    padding: 16px
+}
+.btn-display-div .btn{
+    font-size: 13px;
+    font-weight: 600;
+    padding: 7px 28px 6px;
+    border-radius: 13px;
+    margin: 15px 0px 0px;
+    background: #fff;
+    color: #dc2a4c;
+    letter-spacing: 1px;
+}
+.btn-display-div .btn:hover{
+    color: #dc2a4c;
+    border: 1px solid #dc2a4c;
+    background: transparent;
+    transition: 1s;
+}
+.footer img{
+    margin-top: 600px;
+}
+.footer-bottom h4{
+    font-size: 27px;
+    font-weight: 600;
+    color: #dc2a4c;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 3px;
+}
+.footer-bottom{
+    margin-top: 500px;
+}
+.footer-bottom p{
+	color: #dc2a4c;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+}
+ .footer-bottom strong {
+    font-weight: bolder;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 1px;
+}
+.footer-bottom .para{
+    font-size: 20px;
+    padding-top: 46px;
+}
+.footer-bottom .para-footer{
+    font-size: 20px;
+}
+.footer-bottom .para a{
+    width: 100%;
+    padding: 0px 13px;
+    color: #dc2a4c;
+    font-family: 'Open Sans', sans-serif;
+}
+.footer-bottom .para a:hover{
+    color: #000;
+}
+.footer-bottom .para-footer a{
+    width: 100%;
+    padding: 0px 13px;
+    color: #dc2a4c;
+}
+.footer-bottom .para-footer a:hover{
+    color: #000;
+}
+.footer-bottom ul li{
+    list-style: none;
+    display: inline-block;
+    padding-top: 50px;
+}
+.footer-bottom ul li a{
+    font-size: 24px;
+}
+.footer-bottom ul li a i{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    background: #dc2a4c;
+    color: #fffae9;
+    padding: 0px 14px;
+    margin-left: 33px;
+}
+.footer-bottom ul li a .fa-instagram:hover{
+    background: transparent;
+    border: 1px solid #dc2a4c;
+    color: #dc2a4c;
+}
+.footer-bottom ul li a .fa-twitter:hover{
+    background: transparent;
+    border: 1px solid #dc2a4c;
+    color: #dc2a4c;
+}
+.footer-bottom ul li a .fa-facebook:hover{
+    background: transparent;
+    border: 1px solid #dc2a4c;
+    color: #dc2a4c;
+}
+.footer-bottom ul li a .fa-youtube:hover{
+    background: transparent;
+    border: 1px solid #dc2a4c;
+    color: #dc2a4c;
+}
+/******************************************/
+/***Display-footer-section css code end**8*/
+/******************************************/
+
+
+
+/******************************************/
+/**********Mediea query css code start*****/
+/******************************************/
+
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  .banner .banner-inner h1 {
+    width: 100%;
+    font-size: 41px;
+    margin-top: 94px;
+}
+  .banner .banner-inner p {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+}
+.header-section {
+    width: 100%;    
+    padding-bottom: 326px;
+    margin-bottom: -96px;
+}
+.About-inner h1 {
+    width: 100%;
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.About-in p {
+    width: 100%;
+    font-size: 11px;
+}
+.btn-div .btn {
+    font-size: 10px;
+    margin: -6px 0px 0px;
+}
+.display-in p {
+    width: 100%;
+    font-size: 11px;
+}
+.display-in-mid p {
+    width: 100%;
+    font-size: 11px;
+}
+.display-in h2 {
+    width: 100%;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.display-in-mid h2 {
+    width: 100%;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.display-inner {
+    width: 100%;
+    background: #13acbe;
+    padding: 10px;
+}
+.display-inner-mid {
+    width: 100%;
+    background: #13acbe;
+    padding: 10px;
+    margin-bottom: 85px;
+}
+.display-section {
+    width: 100%;
+    background: none;
+    padding: 101px 0px 130px;
+}
+.polygon-section {
+    width: 100%;
+    background: none;
+}
+.polygon img {
+    width: 100%;
+    padding-bottom: 25px;
+}
+.polygon-inner h1 {
+    font-size: 34px;
+    font-weight: 500;
+    padding-top: 76px;
+    margin-bottom: 39px;
+    letter-spacing: 1px;
+    color: #1d54af;
+}
+.polygon-in p {
+    font-size: 11px;
+    font-weight: 600;
+    color: #000;
+    margin-left: auto;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+.enjoy h1 {
+    width: 100%;
+    font-size: 28px;
+    font-weight: 500;
+    color: #dc2a4c;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 64px;
+}
+.enjoy {
+    width: 100%;
+    padding: 45px 0px 70px;
+}
+.enjoy p {
+    font-size: 11px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    color: #000;
+    margin-top: 90px;
+    text-align: center;
+}
+.banner-section {
+    width: 100%;
+    padding: 0px 0px 298px;
+}
+.btn {
+    font-size: 14px;
+    }
+.display-footer-inner{
+    display: none;
+}
+.display-footer-inner-in{
+    display: none;
+}
+.footer-bottom {
+    margin-top: 134px;
+}
+.footer-bottom ul li a i {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    background: #dc2a4c;
+    color: #fffae9;
+    padding: 0px 10px;
+    margin-left: 31px;
+}
+.footer-bottom .para {
+    margin-top: -129px;
+    font-size: 18px;
+}
+.footer-bottom .para-footer {
+    font-size: 18px;
+}
+.footer-bottom {
+    margin-top: 138px;
+}
+}
+
+/******************************************/
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+/******************************************/
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .banner .banner-inner h1 {
+    width: 100%;
+    font-size: 40px;
+}
+.banner .banner-inner p {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 600;
+}
+.header-section {
+    width: 100%;
+    padding-bottom: 361px;
+}
+.banner .banner-inner .btn {
+    font-size: 16px;
+}
+.About-inner h1 {
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+.About-in p {
+    font-size: 11px;
+}
+.btn-div .btn {
+    font-size: 15px;
+}
+.display-in p {
+    font-size: 7px;
+    color: #fff;
+    font-weight: 700;
+}
+.btn-display .btn {
+    font-size: 7px;
+    font-weight: 600;
+    background: #df3e5b;
+    color: #fff;
+    letter-spacing: 1px;
+}
+.display-in h2 {
+    width: 100%;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+.display-in-mid h2{
+    width: 100%;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+.display-in-mid p{
+    font-size: 7px;
+    color: #fff;
+    font-weight: 700;
+}
+.btn-display-mid .btn{
+    font-size: 7px;
+    font-weight: 600;
+    background: #df3e5b;
+    color: #fff;
+    letter-spacing: 1px;
+}
+.display-section {
+    padding: 162px 0px 185px;
+}
+.display-inner {
+    width: 100%;
+    margin-top: 217px;
+}
+.display-mid img {
+    width: 100%;
+    margin-top: 164px;
+}
+.polygon-inner h1 {
+    font-size: 35px;
+    padding-top: 97px;
+    letter-spacing: 1px;
+}
+.polygon-in p {
+    font-size: 9px;
+}
+.btn-div .btn {
+    font-size: 13px;
+}
+.enjoy h1 {
+    width: 100%;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+.enjoy p {
+    font-size: 11px;
+}
+.enjoy-section {
+    width: 100%;
+    margin-top: -177px;
+}
+.banner-section {
+    padding: 0px 0px 627px;
+}
+.About-section {
+    width: 100%;
+    margin-top: -77px;
+}
+.btn-div .btn {
+    font-size: 10px;
+}
+.btn {
+    font-size: 15px;
+}
+.display-footer-in h2{
+    width: 100%;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+.display-footer-div h2{
+    width: 100%;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+.display-footer-in p{
+    font-size: 7px;
+    color: #fff;
+    font-weight: 700;
+}
+.display-footer-div p{
+    font-size: 7px;
+    color: #fff;
+    font-weight: 700;
+}
+.btn-display-div .btn{
+    font-size: 7px;
+    font-weight: 600;
+    background: #df3e5b;
+    color: #fff;
+    letter-spacing: 1px;
+}
+.display-footer-inner {
+    width: 100%;
+    margin-top: 368px;
+}
+.display-footer-inner-in {
+    width: 100%;
+    margin-top: 326px;
+}
+.footer-bottom {
+    margin-top: 244px;
+}
+.footer-bottom p {
+    font-size: 12px;
+}
+.footer-bottom h4 {
+    font-size: 21px;
+}
+.footer-bottom .para a {
+    width: 100%;
+    padding: 0px 2px;
+}
+.footer-bottom .para {
+    font-size: 16px;
+    padding-top: 46px;
+}
+.footer-bottom .para-footer a{
+    width: 100%;
+    padding: 0px 2px;
+}
+.footer-bottom .para-footer {
+    font-size: 16px;
+}
+.footer-bottom ul li a i {
+    width: 27px;
+    height: 27px;
+    line-height: 27px;
+    border-radius: 50%;
+    background: #dc2a4c;
+    color: #fffae9;
+    padding: 0px 6px;
+    margin-left: 20px;
+}
+.footer-bottom ul li a {
+    font-size: 17px;
+}
+}
+
+/******************************************/
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+/******************************************/
+
+@media (min-width: 769px) and (max-width: 1024px){
+  
+  .banner .banner-inner h1 {
+    width: 100%;
+    font-size: 56px;
+    letter-spacing: 1px;
+}
+.banner .banner-inner p {
+    font-size: 19px;
+    line-height: 30px;
+}
+.banner .banner-inner .btn {
+    font-size: 16px;
+}
+.About-in p {
+    font-size: 15px;
+}
+.About-inner h1 {
+    font-size: 35px;
+}
+.btn-div .btn {
+    font-size: 14px;
+}
+.display-in h2 {
+    width: 100%;
+    font-size: 28px;
+    letter-spacing: 1px
+}
+.display-in-mid h2 {
+    width: 100%;
+    font-size: 28px;
+    letter-spacing: 1px
+}
+.display-in p {
+    width: 100%;
+    font-size: 10px;
+    font-weight: 600;
+}
+.display-in-mid p {
+    width: 100%;
+    font-size: 10px;
+    font-weight: 600;
+}
+.btn-display .btn {
+    font-size: 12px;
+}
+.btn-display-mid .btn {
+    font-size: 12px;
+}
+.polygon-in p {
+    font-size: 13px;
+}
+.polygon-inner h1 {
+    font-size: 35px;
+}
+.enjoy h1 {
+    width: 100%;
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+.enjoy p {
+    font-size: 14px;
+}
+.enjoy-section {
+    width: 100%;
+    margin-top: -199px;
+}
+.banner-section {
+    width: 100%;
+    margin-bottom: -234px;
+}
+.display-footer-div p {
+    width: 100%;
+    font-size: 10px;
+    font-weight: 600;
+}
+.display-footer-in p{
+    width: 100%;
+    font-size: 10px;
+    font-weight: 600;
+}
+.display-footer-section {
+    width: 100%;
+    background: url(../img/G13.png) center top no-repeat;
+    background-size: cover;
+    margin-bottom: 38px;
+}
+.footer-bottom ul li a i {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    background: #dc2a4c;
+    color: #fffae9;
+    padding: 0px 10px;
+    margin-left: 29px;
+}
+.footer-bottom h4 {
+    font-size: 23px;
+}
+.footer-bottom .para {
+    font-size: 18px;
+}
+.footer-bottom .para-footer {
+    font-size: 18px;
+}
+.footer-bottom .para a {
+    width: 100%;
+    padding: 0px 10px;
+}
+.footer-bottom .para-footer a{
+    width: 100%;
+    padding: 0px 10px;
+}
+}
+
+/******************************************/
+/**********Mediea query css code end*******/
+/******************************************/
